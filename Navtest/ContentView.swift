@@ -8,19 +8,41 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var path = NavigationPath()
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        NavigationStack(path: $path) {
+            VStack{
+                Button {
+                    path.append("SecondView")
+                } label: {
+                    Text("This is the first view")
+                    
+                }
+                .navigationDestination(for: String.self) { view in
+                    switch view {
+                    case "SecondView":
+                        SecondView(path: $path)
+                    case "ThirdView":
+                        ThirdView(path: $path)
+                    case "FourthView":
+                        FourthView(path: $path)
+                    case "FifthView":
+                        FifthView(path: $path)
+                    default:
+                        Text("Unknown")
+                    }
+                    
+                }
+                //.toolbar {
+                    //Text("Save")}
+                .navigationTitle("First View")
+                
+            }
         }
-        .padding()
+        //.padding()
+        
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
-    }
-}
+

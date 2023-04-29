@@ -11,6 +11,10 @@
 		3459E3E129FB18F400AB7F9E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3459E3E029FB18F400AB7F9E /* ContentView.swift */; };
 		3459E3E329FB18F400AB7F9E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3459E3E229FB18F400AB7F9E /* Assets.xcassets */; };
 		3459E3E629FB18F400AB7F9E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3459E3E529FB18F400AB7F9E /* Preview Assets.xcassets */; };
+		3459E3ED29FB1C8800AB7F9E /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3459E3EC29FB1C8800AB7F9E /* SecondView.swift */; };
+		3459E3EF29FB1C9100AB7F9E /* ThirdView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3459E3EE29FB1C9100AB7F9E /* ThirdView.swift */; };
+		3459E3F329FB447F00AB7F9E /* FourthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3459E3F229FB447F00AB7F9E /* FourthView.swift */; };
+		3459E3F529FB479F00AB7F9E /* FifthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3459E3F429FB479F00AB7F9E /* FifthView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,11 @@
 		3459E3E029FB18F400AB7F9E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3459E3E229FB18F400AB7F9E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3459E3E529FB18F400AB7F9E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3459E3EC29FB1C8800AB7F9E /* SecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
+		3459E3EE29FB1C9100AB7F9E /* ThirdView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdView.swift; sourceTree = "<group>"; };
+		3459E3F229FB447F00AB7F9E /* FourthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthView.swift; sourceTree = "<group>"; };
+		3459E3F429FB479F00AB7F9E /* FifthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FifthView.swift; sourceTree = "<group>"; };
+		3459E3F729FB683C00AB7F9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +60,13 @@
 		3459E3DD29FB18F400AB7F9E /* Navtest */ = {
 			isa = PBXGroup;
 			children = (
+				3459E3F729FB683C00AB7F9E /* Info.plist */,
 				3459E3DE29FB18F400AB7F9E /* NavtestApp.swift */,
 				3459E3E029FB18F400AB7F9E /* ContentView.swift */,
+				3459E3EC29FB1C8800AB7F9E /* SecondView.swift */,
+				3459E3EE29FB1C9100AB7F9E /* ThirdView.swift */,
+				3459E3F229FB447F00AB7F9E /* FourthView.swift */,
+				3459E3F429FB479F00AB7F9E /* FifthView.swift */,
 				3459E3E229FB18F400AB7F9E /* Assets.xcassets */,
 				3459E3E429FB18F400AB7F9E /* Preview Content */,
 			);
@@ -137,7 +151,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3459E3ED29FB1C8800AB7F9E /* SecondView.swift in Sources */,
+				3459E3EF29FB1C9100AB7F9E /* ThirdView.swift in Sources */,
 				3459E3E129FB18F400AB7F9E /* ContentView.swift in Sources */,
+				3459E3F329FB447F00AB7F9E /* FourthView.swift in Sources */,
+				3459E3F529FB479F00AB7F9E /* FifthView.swift in Sources */,
 				3459E3DF29FB18F400AB7F9E /* NavtestApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -269,6 +287,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Navtest/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Navtest/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -297,6 +316,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Navtest/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Navtest/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
