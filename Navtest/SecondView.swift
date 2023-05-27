@@ -17,28 +17,30 @@ struct SecondView: View {
     
     @Binding var path: NavigationPath
     var body: some View {
-        Text("View")
-            .padding()
-            .navigationTitle("Second View")
-            .navigationBarTitleDisplayMode(.inline)
-            //.preferredColorScheme(.light)
-            //.toolbarColorScheme(.dark, for: .navigationBar)
-            .toolbarBackground(Color.orange)
-        
-            .toolbar {
-                ToolbarItem(placement: .navigationBarLeading) {
-                    Button("Save") {
-                        print("delete document")
-                    }
-                }
-                ToolbarItem(placement: .navigationBarTrailing) {
-                   Button {
-                        path.append("ThirdView")
-                    } label: {
-                        Text("This is the second view")
-                    }
-                    }
-                }
+        ZStack{
+            //This toolbar is a struct in a separate file (ToolbarView) that has the patient information that is displayed at the top of the views
+            ToolbarView()
+            HStack{
+                //This button navigates back to the first view
+                Button {
+                    path.removeLast(path.count)
+                } label: {
+                    Text("  ") + Text(Image(systemName: "chevron.backward.2")) + Text(" First View")
+                }.frame(maxWidth: .infinity, alignment: .leading)
+                //.padding(.trailing, 30)
+                    .padding(.top, 30)
+                //This button navigates forward to the second view
+                Button {
+                    path.append("ThirdView")
+                } label: {
+                    Text("Third View ") + Text(Image(systemName: "chevron.forward.2")) + Text("    ")
+                }.frame(maxWidth: .infinity, alignment: .trailing)
+                    .padding(.top, 30)
             }
+        }
+        Spacer()
+        Text("Second View")
+            .padding()
     }
+}
 

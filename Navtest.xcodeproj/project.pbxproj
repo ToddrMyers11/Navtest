@@ -8,19 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		3459E3DF29FB18F400AB7F9E /* NavtestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3459E3DE29FB18F400AB7F9E /* NavtestApp.swift */; };
-		3459E3E129FB18F400AB7F9E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3459E3E029FB18F400AB7F9E /* ContentView.swift */; };
+		3459E3E129FB18F400AB7F9E /* FirstView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3459E3E029FB18F400AB7F9E /* FirstView.swift */; };
 		3459E3E329FB18F400AB7F9E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3459E3E229FB18F400AB7F9E /* Assets.xcassets */; };
 		3459E3E629FB18F400AB7F9E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3459E3E529FB18F400AB7F9E /* Preview Assets.xcassets */; };
 		3459E3ED29FB1C8800AB7F9E /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3459E3EC29FB1C8800AB7F9E /* SecondView.swift */; };
 		3459E3EF29FB1C9100AB7F9E /* ThirdView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3459E3EE29FB1C9100AB7F9E /* ThirdView.swift */; };
 		3459E3F329FB447F00AB7F9E /* FourthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3459E3F229FB447F00AB7F9E /* FourthView.swift */; };
 		3459E3F529FB479F00AB7F9E /* FifthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3459E3F429FB479F00AB7F9E /* FifthView.swift */; };
+		3459E3F929FF1A5600AB7F9E /* TitleFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3459E3F829FF1A5600AB7F9E /* TitleFormat.swift */; };
+		3459E3FC2A0875EF00AB7F9E /* ToolbarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3459E3FB2A0875EF00AB7F9E /* ToolbarView.swift */; };
+		3459E3FE2A0D867600AB7F9E /* GadientBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3459E3FD2A0D867600AB7F9E /* GadientBar.swift */; };
+		3459E4002A0ECE2500AB7F9E /* NavigationBarColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3459E3FF2A0ECE2500AB7F9E /* NavigationBarColor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3459E3DB29FB18F400AB7F9E /* Navtest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Navtest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3459E3DE29FB18F400AB7F9E /* NavtestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavtestApp.swift; sourceTree = "<group>"; };
-		3459E3E029FB18F400AB7F9E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3459E3E029FB18F400AB7F9E /* FirstView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstView.swift; sourceTree = "<group>"; };
 		3459E3E229FB18F400AB7F9E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3459E3E529FB18F400AB7F9E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3459E3EC29FB1C8800AB7F9E /* SecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
@@ -28,6 +32,10 @@
 		3459E3F229FB447F00AB7F9E /* FourthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthView.swift; sourceTree = "<group>"; };
 		3459E3F429FB479F00AB7F9E /* FifthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FifthView.swift; sourceTree = "<group>"; };
 		3459E3F729FB683C00AB7F9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		3459E3F829FF1A5600AB7F9E /* TitleFormat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleFormat.swift; sourceTree = "<group>"; };
+		3459E3FB2A0875EF00AB7F9E /* ToolbarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolbarView.swift; sourceTree = "<group>"; };
+		3459E3FD2A0D867600AB7F9E /* GadientBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GadientBar.swift; sourceTree = "<group>"; };
+		3459E3FF2A0ECE2500AB7F9E /* NavigationBarColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarColor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,13 +70,17 @@
 			children = (
 				3459E3F729FB683C00AB7F9E /* Info.plist */,
 				3459E3DE29FB18F400AB7F9E /* NavtestApp.swift */,
-				3459E3E029FB18F400AB7F9E /* ContentView.swift */,
+				3459E3E029FB18F400AB7F9E /* FirstView.swift */,
 				3459E3EC29FB1C8800AB7F9E /* SecondView.swift */,
 				3459E3EE29FB1C9100AB7F9E /* ThirdView.swift */,
 				3459E3F229FB447F00AB7F9E /* FourthView.swift */,
 				3459E3F429FB479F00AB7F9E /* FifthView.swift */,
+				3459E3FA2A08759A00AB7F9E /* Helper files */,
 				3459E3E229FB18F400AB7F9E /* Assets.xcassets */,
 				3459E3E429FB18F400AB7F9E /* Preview Content */,
+				3459E3F829FF1A5600AB7F9E /* TitleFormat.swift */,
+				3459E3FD2A0D867600AB7F9E /* GadientBar.swift */,
+				3459E3FF2A0ECE2500AB7F9E /* NavigationBarColor.swift */,
 			);
 			path = Navtest;
 			sourceTree = "<group>";
@@ -79,6 +91,14 @@
 				3459E3E529FB18F400AB7F9E /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3459E3FA2A08759A00AB7F9E /* Helper files */ = {
+			isa = PBXGroup;
+			children = (
+				3459E3FB2A0875EF00AB7F9E /* ToolbarView.swift */,
+			);
+			path = "Helper files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -153,7 +173,11 @@
 			files = (
 				3459E3ED29FB1C8800AB7F9E /* SecondView.swift in Sources */,
 				3459E3EF29FB1C9100AB7F9E /* ThirdView.swift in Sources */,
-				3459E3E129FB18F400AB7F9E /* ContentView.swift in Sources */,
+				3459E3F929FF1A5600AB7F9E /* TitleFormat.swift in Sources */,
+				3459E3FC2A0875EF00AB7F9E /* ToolbarView.swift in Sources */,
+				3459E3FE2A0D867600AB7F9E /* GadientBar.swift in Sources */,
+				3459E4002A0ECE2500AB7F9E /* NavigationBarColor.swift in Sources */,
+				3459E3E129FB18F400AB7F9E /* FirstView.swift in Sources */,
 				3459E3F329FB447F00AB7F9E /* FourthView.swift in Sources */,
 				3459E3F529FB479F00AB7F9E /* FifthView.swift in Sources */,
 				3459E3DF29FB18F400AB7F9E /* NavtestApp.swift in Sources */,
