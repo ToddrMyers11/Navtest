@@ -29,7 +29,7 @@ struct SecondView: View {
                 }.frame(maxWidth: .infinity, alignment: .leading)
                 //.padding(.trailing, 30)
                     .padding(.top, 30)
-                //This button navigates forward to the second view
+                //This button navigates forward to the third view
                 Button {
                     path.append("ThirdView")
                 } label: {
